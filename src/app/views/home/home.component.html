@@ -1,0 +1,94 @@
+<body onload="mostrar()">
+    <header>
+        <div class="grid posi-header">
+            <a class="im" href=""><img src="/src/favicon.ico" alt="Logo do site"></a>
+            <nav id="menu" class="menu">
+                <a href="#">Desktop Gamer</a>
+                <a href="#">Notbook Gamer</a>
+                <a href="#">Acessórios</a>
+                <a href="#">Monitor</a>
+                <a href="#">Jogos</a>
+            </nav>
+            <a href="" onclick="mostramenu()" ><img class="barras" src="/src/assets/img/favicon.ico" alt="menubarras"></a>
+        </div>
+    </header>
+    <!--<div id="carrosel" class="carrosel">
+        <img src="img/pexels-shawn-stutzman-1010496.jpg" alt="">
+        <img src="img/02.jpg" alt="">
+        <img src="img/gamer.jpg" alt="">
+    </div>-->
+    <div class="banner container">
+        <div class="row">
+           <div class="pacote col">
+               <h1 class="got">GoT</h1>
+               <a class="cadastro" href="">Cadastre-se</a>
+           </div>
+        </div>
+    </div>
+
+    <section class="secao">
+        <div class="secao2 container">
+            <h1 class="textoh">Ofertas GoT da semana</h1>
+            <p class="descricao">
+            <a href=""> Click e aproveite já! </a> </p>
+            <a id="carrosel" class="carrosel" href="">
+                <img src="/src/assets/img/pc-gamer-nivel-40-completo_640x640+fill_ffffff 3.png" alt="">
+                <img src="/src/assets/img/not2.png" alt="">
+                <img src="/src/assets/img/not2.png" alt="">
+                <img src="/src/assets/img/monitor 3.png" alt="">
+            </a>
+        </div>
+    </section>
+
+    <section>
+        <div class="secao3">
+            <div class="container">
+                <h2 class="txt">Quem somos</h2>
+            <div class="row">
+                <p class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque facere molestias recusandae culpa soluta consectetur quis incidunt ea unde dicta ducimus harum illo eveniet, aperiam nihil vero numquam laborum? Placeat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, id nam sapiente, repellat ipsa quibusdam commodi fugiat illo dignissimos quo saepe optio sit voluptates mollitia! Alias explicabo incidunt quibusdam vitae.</p>
+               <p id="somi" class="col">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam incidunt optio, quisquam recusandae cumque neque excepturi error temporibus quidem nisi quos distinctio nihil facere in illo corrupti. Totam, ad officiis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, earum minus ut qui perferendis similique possimus quia a. Illo, dolor! Iste, quam? Quidem dolorem quia aspernatur magni qui incidunt ratione.</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="foo row">
+            <nav class="m1 col-md-4">
+                <h3>Links</h3>
+                <a href="#">Redes Sociais</a>
+                <a href="#">Contatos</a>
+                <a href="#">Chat</a>
+                <a href="#">Central de Ajuda</a>
+            </nav>
+            <nav class=" m2 col-md-4">
+                <h3>Páginas</h3>
+                <a href="#">Desktop Gamer</a>
+                <a href="#">Notbook Gamer</a>
+                <a href="#">Acessórios</a>
+                <a href="#">Monitor</a>
+                <a href="#">Jogos</a>
+            </nav>
+            <div class="m3 col-md-4">
+                <form action="">
+                    <input id="campo-email" type="email" placeholder="E-mail" required>
+                    <button onclick="enviaremail()">Cadastro</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let menu = document.getElementById("menu");
+        function mostramenu(){
+            if(menu.style.display != "flex"){
+                menu.style.display = "flex"
+            }else{
+                menu.style.display = "none"
+            }
+        }
+    </script>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
